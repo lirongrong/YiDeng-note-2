@@ -36,7 +36,7 @@ https://jestjs.io/docs/zh-Hans/getting-started.html
 ```
 npm install karma-jasmine  jasmine-core --save-dev
 ```
-3.第二个错误 phantomjs 出错
+3. 第二个错误 phantomjs 出错
 ```
 npm install phantom --save-dev
 npm install --save-dev karma-phantomjs-launcher
@@ -59,5 +59,5 @@ Downloading Chromium r609904 - 82.7 Mb [====================] 0.2% 0.0s
 7. https://f2etest.net/
 8. ui的自动化测试
 
-### img
-<img src="./imgs.png"/>
+### img 
+![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/imgs.png)
