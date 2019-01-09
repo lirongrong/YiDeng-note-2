@@ -28,24 +28,36 @@ no
 4.e2e(端对端)做页面的测试，功能测试
 
 #### 包整理
-1.单元测试jestjs(react推出)
+1. 单元测试jestjs(react推出)
+```
 https://jestjs.io/docs/zh-Hans/getting-started.html
-2.第一个错误 jasmine-core 出错
+```
+2. 第一个错误 jasmine-core 出错
+```
 npm install karma-jasmine  jasmine-core --save-dev
+```
 3.第二个错误 phantomjs 出错
+```
 npm install phantom --save-dev
 npm install --save-dev karma-phantomjs-launcher
-4.nightwatch 大型项目 
+```
+4. nightwatch 大型项目 
+```
 http://nightwatchjs.org/
-5.rize错误
+```
+5. rize错误
+```
 Downloading Chromium r609904 - 82.7 Mb [====================] 0.2% 0.0s
+```
 科学上网 yarn 
-6.阿里f2etest
+6. 阿里f2etest
+```
     https://github.com/alibaba/f2etest
     http://shaofan.org/f2etest/
     http://shaofan.org/ui-recorder/
-7.https://f2etest.net/
-8.ui的自动化测试
+```
+7. https://f2etest.net/
+8. ui的自动化测试
 
 ### img
-<img src="./img.png"/>
+<img src="./imgs.png"/>
