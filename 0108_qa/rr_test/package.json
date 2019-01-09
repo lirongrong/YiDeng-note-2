@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm-run-all service",
-    "init": "karma init",
+    "test": "npm-run-all unit e2e ui service",
     "unit": "karma start",
     "e2e": "node ./e2e/*.spec.js",
     "ui": "backstop test",

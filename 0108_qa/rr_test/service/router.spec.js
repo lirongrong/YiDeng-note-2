@@ -1,5 +1,5 @@
 const axios = require("axios");
-describe("node借口测试",function(){
+describe("node接口测试",function(){
     it("test接口测试",function(done){
         axios.get("http://localhost:3000/test")
         .then(function(response){

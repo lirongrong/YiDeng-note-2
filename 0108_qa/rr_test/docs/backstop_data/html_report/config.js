@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/rr_1caifu_0_document_0_phone.png",
-        "test": "../bitmaps_test/20190109-213815/rr_1caifu_0_document_0_phone.png",
+        "test": "../bitmaps_test/20190109-225603/rr_1caifu_0_document_0_phone.png",
         "selector": "document",
         "fileName": "rr_1caifu_0_document_0_phone.png",
         "label": "1caifu",
@@ -21,16 +21,16 @@ report({
             "height": 0
           },
           "misMatchPercentage": "1.60",
-          "analysisTime": 22
+          "analysisTime": 25
         },
-        "diffImage": "../bitmaps_test/20190109-213815/failed_diff_rr_1caifu_0_document_0_phone.png"
+        "diffImage": "../bitmaps_test/20190109-225603/failed_diff_rr_1caifu_0_document_0_phone.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/rr_1caifu_0_document_1_tablet.png",
-        "test": "../bitmaps_test/20190109-213815/rr_1caifu_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20190109-225603/rr_1caifu_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "rr_1caifu_0_document_1_tablet.png",
         "label": "1caifu",
@@ -41,15 +41,15 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -281
+            "height": 0
           },
-          "misMatchPercentage": "0.44",
-          "analysisTime": 47
+          "misMatchPercentage": "0.26",
+          "analysisTime": 48
         },
-        "diffImage": "../bitmaps_test/20190109-213815/failed_diff_rr_1caifu_0_document_1_tablet.png"
+        "diffImage": "../bitmaps_test/20190109-225603/failed_diff_rr_1caifu_0_document_1_tablet.png"
       },
       "status": "fail"
     }

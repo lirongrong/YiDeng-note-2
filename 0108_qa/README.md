@@ -71,3 +71,5 @@ mochawesome//报表
 
 ### IMG 
 ![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/imgs.png)
+
+### 实现的效果
