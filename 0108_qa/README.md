@@ -59,6 +59,10 @@ Downloading Chromium r609904 - 82.7 Mb [====================] 0.2% 0.0s
 ```
 7. https://f2etest.net/
 8. ui的自动化测试
+```
+npm install -g backstopjs
+casper
+```
 
 ### IMG 
 ![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/imgs.png)
