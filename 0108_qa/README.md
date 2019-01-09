@@ -1,4 +1,5 @@
-### js与QA测试工程师
+"[Toc]"
+### JS与QA测试工程师
 
 #### 配置步骤
 1. 生成package配置文件
@@ -59,5 +60,5 @@ Downloading Chromium r609904 - 82.7 Mb [====================] 0.2% 0.0s
 7. https://f2etest.net/
 8. ui的自动化测试
 
-### img 
+### IMG 
 ![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/imgs.png)
