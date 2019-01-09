@@ -1,8 +1,10 @@
-//退出
 
-console.log('000');
-//0 非正常的退出
-//1 正常退出
-process.exit(1);
 
-console.log('123');
+const express = require('express')
+const app = express()
+
+app.get('/test', (req, res) => res.send({
+    result:'Hello World!'
+}))
+
+app.listen(3000, () => console.log('Example app listening on port 3000!'))

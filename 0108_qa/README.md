@@ -58,10 +58,15 @@ Downloading Chromium r609904 - 82.7 Mb [====================] 0.2% 0.0s
     http://shaofan.org/ui-recorder/
 ```
 7. https://f2etest.net/
-8. ui的自动化测试
+8. ui的自动化测试,ui走查
 ```
 npm install -g backstopjs
 casper
+```
+9. 测试接口
+```
+mocha
+mochawesome//报表
 ```
 
 ### IMG 
