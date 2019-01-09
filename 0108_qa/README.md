@@ -73,3 +73,9 @@ mochawesome//报表
 ![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/imgs.png)
 
 ### 实现的效果
+#### 单元测试
+![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/unit.png)
+#### ui测试
+![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/e2e.png)
+#### service接口测试
+![Image text](https://raw.githubusercontent.com/lirongrong/YiDeng-note-2/master/0108_qa/service.png)
