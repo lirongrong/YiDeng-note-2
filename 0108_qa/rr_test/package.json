@@ -1,0 +1,28 @@
+{
+  "name": "rr_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-run-all unit e2e",
+    "init": "karma init",
+    "unit": "karma start",
+    "e2e": "node ./e2e/*.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.4",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "npm-run-all": "^4.1.5",
+    "phantom": "^6.0.3",
+    "puppeteer": "^1.11.0",
+    "rize": "^0.8.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {}
+}
