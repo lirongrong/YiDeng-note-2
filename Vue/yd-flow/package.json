@@ -1,0 +1,16 @@
+{
+  "name": "yd-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init":"flow init",
+    "test": "flow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "^0.95.1"
+  }
+}
