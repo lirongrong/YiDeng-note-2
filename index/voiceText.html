@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文字转音频</title>
+    <script src="http://cdn.javanx.cn/wp-content/themes/lensnews2.2/js/jquery.min.js?ver=3.1.1"></script>
+</head>
+
+<body>
+
+    <script>
+        function audioPlay(text) {
+            var zhText = text;
+            zhText = encodeURI(zhText);
+            var audio = "<audio autoplay=\"autoplay\">" + "<source src=\"http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=4&text=" + zhText + "\" type=\"audio/mpeg\">" + "<embed height=\"0\" width=\"0\" src=\"http://tts.baidu.com/text2audio?text=" + zhText + "\">" + "</audio>";
+            $('body').append(audio);
+        }
+        audioPlay('我是web秀'); 
+    </script>
+</body>
+
+</html>
